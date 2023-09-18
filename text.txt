@@ -1,0 +1,13 @@
+Creating database Tables through python.
+So far, we used 'emptab' table that was already created in the MySQL database.
+It is also possible to create any table in the MySQL database using a python program.
+Once the table is created, we can insert the rows through a python program.
+Suppose we want to create emptab table with the columns: eno, ename, sex and salary,
+we can write a SQL command as follows:
+create table emptab(enoint, ename char(20), sex char(1), salary float)
+
+Before the emptab is created, we can check if any table already exists by
+ that name is the database and we can delete that table using drop table command as:
+drop table if exists emptab
+
+The command should be first executed and after that, we can create the new emptab table.
